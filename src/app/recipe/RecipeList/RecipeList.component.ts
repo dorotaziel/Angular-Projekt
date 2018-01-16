@@ -8,6 +8,7 @@ import { Recipe } from '../recipe.model';
 })
 export class RLComponent{
 recipes: Recipe[] = [
-    new Recipe('Przykładowy przepis', 'Opis przykladowego przepisu', 'https://cdn.pixabay.com/photo/2014/12/21/23/28/recipe-575434_960_720.png')
+    new Recipe('Przykładowy przepis', 'Opis przykladowego przepisu', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-Hgc0b5rUHjI3sKYRAt-SXo4VOy3fSTAIUe7XzzSd5n4qR3_7'),
+    new Recipe('Przykładowy przepis', 'Opis przykladowego przepisu', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-Hgc0b5rUHjI3sKYRAt-SXo4VOy3fSTAIUe7XzzSd5n4qR3_7')
 ];
 }

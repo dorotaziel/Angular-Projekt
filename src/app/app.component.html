@@ -1,9 +1,7 @@
 
-<app-header></app-header>
+<app-header 
+(featureSelected)="onNavigate($event)">
+</app-header>
 
-
-                <h2>Angular Application!</h2>
-
-
-<app-recipe></app-recipe>
-<app-SL></app-SL>
+<app-recipe *ngIf="loadedFeature === 'recipe' "></app-recipe>
+<app-SL *ngIf="loadedFeature !== 'recipe' "></app-SL>

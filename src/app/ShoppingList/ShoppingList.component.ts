@@ -12,4 +12,8 @@ export class SLComponent{
         new Ingredient('Cucumber', 3),
     ];
 
+    onIngredientAdded(ingredient: Ingredient){
+        this.ingredients.push(ingredient);
+    }
+
     }

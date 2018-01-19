@@ -11,6 +11,8 @@ import { RLComponent } from './recipe/RecipeList/RecipeList.component';
 import { SLComponent } from './ShoppingList/ShoppingList.component';
 import { SLEComponent } from './ShoppingList/ShoppingListEdit/ShoppingListEdit.component';
 import { RecipeComponent } from './recipe/recipe.component';
+import { DwaComponent } from './dwa/dwa.component';
+import { JedenComponent } from './jeden/jeden.component';
 
 
 @NgModule({
@@ -22,7 +24,9 @@ import { RecipeComponent } from './recipe/recipe.component';
     RLComponent,
     SLComponent,
     SLEComponent,
-    RecipeComponent
+    RecipeComponent, 
+    DwaComponent, 
+    JedenComponent
   ],
   imports: [
     BrowserModule,

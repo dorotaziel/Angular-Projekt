@@ -4,4 +4,6 @@
 </app-header>
 
 <app-recipe *ngIf="loadedFeature === 'recipe' "></app-recipe>
-<app-SL *ngIf="loadedFeature !== 'recipe' "></app-SL>
+<app-SL *ngIf="loadedFeature === 'SL' "></app-SL>
+<app-jeden *ngIf="loadedFeature === 'jeden' "></app-jeden>
+<app-dwa *ngIf="loadedFeature === 'dwa' "></app-dwa>
